@@ -1,3 +1,4 @@
+import "./Item.css"
 const Item = ({card}) => {
  const {name,image,options} = card;
   return (
@@ -7,5 +8,4 @@ const Item = ({card}) => {
     </div>
   );
 };
-
 export default Item;
