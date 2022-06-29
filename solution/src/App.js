@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="main-container">
       <h1>Language Card Project</h1>
       <Header/>
     </div>
